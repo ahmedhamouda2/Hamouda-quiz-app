@@ -1,0 +1,82 @@
+/* Gernral Properties */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Almarai', sans-serif;
+    background-image: url('../images/back-result.png');
+    background-size: cover;
+    background-position: right top;
+    color: #FFF;
+}
+/* start header */
+header {
+    text-align: center;
+    padding: 36px;
+}
+/* start header */
+
+/* start main section*/
+main {
+    text-align: center;
+}
+main img {
+    width:301px;
+    height:264px
+}
+main p:first-of-type {
+    font-weight: bold;
+    font-size: 32px;
+}
+main p:last-of-type {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 20px;
+}
+main div {
+    font-weight: bold;
+    font-size: 37px;
+}
+main div span{
+    color: #33D6C5;
+}
+/* End main section*/
+
+/* start main section*/
+footer {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+}
+footer a {
+    height: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    margin-top: 140px;
+    cursor: pointer;
+}
+footer a:first-of-type {
+    width: 190px;
+    background: #FFF;
+    color: #000;
+    margin-right: 20px;
+    width: 190px;
+    background: #FFF;
+    color: #000;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a:last-of-type {
+    width: 160px;
+    background: #05D1F3;
+    color: #FFF;
+}
+/* End footer section*/
