@@ -142,3 +142,23 @@ function reply_click() {
     result = selchoice.value
     console.log('result : ' + result);
 }
+
+
+// function check Result with right answer 
+let score = 0
+function checkResult(count, selectedChoice) {
+    if (result == questions[count].rightAnswer) {
+        document.getElementById('sepeator-one').classList.add("correct")
+        return ++score;
+    } else {
+        document.getElementById('sepeator-one').classList.add("wrong")
+    }
+}
+
+
+function checkResultQuestion9(count, selectedChoice) {
+    if (result == questions[count].rightAnswer) {
+        ++counter
+        return ++score;
+    }
+}
