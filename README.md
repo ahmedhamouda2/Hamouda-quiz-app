@@ -7,6 +7,8 @@ A simple application that offers you a set of questions that you can answer and 
 # Figma Link:
 This link showcases a general overview of the project [ Click here](https://www.figma.com/file/4TlboxOaGunS3ssu6GMTFV/quiz?node-id=0%3A1)
 
+Designed first mobile [iPhone 8 Plus]
+
 # User Story
 1. As a User, I want to be able to open the app page and see a brief description of the game and how to play.
 
