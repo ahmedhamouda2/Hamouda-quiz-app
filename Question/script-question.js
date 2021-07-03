@@ -124,3 +124,21 @@ const questions = [
 ]
 
 /***********************************************************************************/
+
+nextButton.addEventListener('click', function (e) {
+    e.preventDefault()
+    setNextQuestion()
+})
+
+/***********************************************************************************/
+
+// function selected choice 
+let choiceId;
+function reply_click() {
+    // event.target is the element that is clicked (button in this case).
+    console.log(questions[counter].question)
+    choiceId = event.target.id;
+    selchoice = document.getElementById(choiceId)
+    result = selchoice.value
+    console.log('result : ' + result);
+}
