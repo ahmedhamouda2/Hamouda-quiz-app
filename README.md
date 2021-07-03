@@ -3,7 +3,7 @@
 You can see our live link  : [ Click here](https://gsg-g10.github.io/Hamouda-quiz-app/)
 
 # Brief Description
-
+A simple application that offers you a set of questions that you can answer and measure the extent of your culture.
 # Figma Link:
 This link showcases a general overview of the project [ Click here](https://www.figma.com/file/4TlboxOaGunS3ssu6GMTFV/quiz?node-id=0%3A1)
 
