@@ -133,3 +133,10 @@ footer a img {
     height: 25px;
 }
 /* End footer */
+
+/* media query */
+@media (min-width:767px) {
+    header {
+        justify-content: center;
+    }
+}
