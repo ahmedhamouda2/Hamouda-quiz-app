@@ -162,3 +162,24 @@ function checkResultQuestion9(count, selectedChoice) {
         return ++score;
     }
 }
+
+// function set  next quesion and record score 
+let counter = 0
+function setNextQuestion() {
+    if (counter < 9) {
+        checkResult(counter, result)
+        ++counter
+        questionContent.textContent = questions[counter].question;
+        opationOne.value = questions[counter].options[0];
+        opationTwo.value = questions[counter].options[1];
+        opationThree.value = questions[counter].options[2];
+        opationFour.value = questions[counter].options[3];
+        questionNumber.innerText = counter + 1
+        console.log('score : ' + score)
+    } else if (counter == 9) {
+        checkResultQuestion9(counter, result)
+        console.log('score : ' + score)
+    } else {
+        console.log('score : ' + score)
+    }
+}
