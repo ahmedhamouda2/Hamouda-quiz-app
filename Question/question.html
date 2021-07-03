@@ -14,11 +14,11 @@
 <body>
     
     <header>
-        Question <span>05</span>/10
+        Question <span id="question-number">1</span>/10
     </header>
     
     <section class="line-seprator">
-        <hr>
+        <hr id="sepeator-one">
         <hr>
         <hr>
         <hr>
@@ -32,23 +32,23 @@
 
     <section class="questions">
         <div class="content">
-            <p id="question-content">Lorem ipsum dolor sit amet elit adipisci . maecenas eu sed ut morbi mcorper ipsum.</p>
+            <p id="question-content">What is 1 + 1?</p>
         </div>
         <div class="opations">
-            <div class="opat">
-                <input type="text" id="opation-one" value="Lorem ipsum" >
+            <div class="opat" id="1" onclick="reply_click(this.id)">
+                <input type="submit" id="opation-one" value="2">
                 <div> </div>
             </div>
-            <div class="opat opaion-correct">
-                <input type="text" id="opation-two" value="Lorem ipsum" >
+            <div class="opat opaion-correct" id="2" onclick="reply_click(this.id)">
+                <input type="submit" id="opation-two" value="3" >
                 <div><img src="../images/Vector.png" alt=""></div>
             </div>
-            <div class="opat">
-                <input type="text" id="opation-three" value="Lorem ipsum" >
+            <div class="opat"  id="3" onclick="reply_click(this.id)">
+                <input type="submit" id="opation-three" value="3" >
                 <div> </div>
             </div>
-            <div class="opat">
-                <input type="text" id="opation-four" value="Lorem ipsum" >
+            <div class="opat"  id="4" onclick="reply_click(this.id)">
+                <input type="submit" id="opation-four" value="4" >
                 <div> </div>
             </div>
         </div>
