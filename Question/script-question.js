@@ -1,4 +1,4 @@
-/* selctoers */
+/* selectors */
 const questionContent = document.getElementById("question-content")
 const opationOne = document.getElementById('opation-one')
 const opationTwo = document.getElementById('opation-two')
