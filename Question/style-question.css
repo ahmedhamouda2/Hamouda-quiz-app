@@ -70,13 +70,13 @@ header span {
 .questions .opations .opat:hover {
     background-color: rgb(5 209 243 / 20%);
 }
-.questions .opations .opaion-correct {
+.questions .opations .opation-correct {
     border: 2px solid rgba(51, 214, 197, 0.75);
 }
-.questions .opations .opaion-correct input  {
+.questions .opations .opation-correct input  {
     color: rgba(51, 214, 197, 0.75) !important;
 }
-.questions .opations .opaion-correct div  {
+.questions .opations .opation-correct div  {
     border: none !important;
 }
 .questions .opations .opat input {
@@ -90,6 +90,7 @@ header span {
     font-size: 22px;
     text-align: left;
     padding-left: 20px;
+    cursor: pointer;
 }
 .questions .opations .opat div {
     background-color: transparent;
@@ -100,10 +101,10 @@ header span {
     position: relative;
     left: -10px;
     z-index: -2;
-    /* display: none; */
 }
 .questions .opations .opat div img {
     width: 100%;
+    height: 100%;
 }
 /* End section questions */
 

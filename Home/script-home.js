@@ -7,7 +7,7 @@ startBtn.addEventListener ('click', checkName = (e) => {
         alert('Please must enter a name')
 
     } else {
-        localStorage.setItem("name", input.value); // storage name in localstorge
+        sessionStorage.setItem("name", input.value);
         input.value = ''
     }
 })
