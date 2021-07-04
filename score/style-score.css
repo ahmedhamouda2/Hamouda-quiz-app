@@ -90,6 +90,7 @@ header {
     border-radius: 40px 40px 0px 0px;
     padding: 35px;
     color: #000;
+    margin: auto;
 }
 .other-score-content {
     display: flex;
@@ -145,9 +146,6 @@ footer a {
 @media (min-width:767px) {
     footer {
         justify-content: center;
-    }
-    .other-score {
-        margin: auto;
     }
 }
 /* End media query */
