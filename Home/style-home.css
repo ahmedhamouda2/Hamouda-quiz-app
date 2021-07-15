@@ -7,6 +7,9 @@
 body {
     font-family: 'Almarai', sans-serif;
     background-color: #EDF3F6;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
 }
 /* start header */
 header {
@@ -47,10 +50,11 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 6%;
 }
 main form {
-    position: relative;
-    top: 80px;
+    display: flex;
+    flex-direction: column;
 }
 main form p {
     font-weight: bold;
@@ -68,13 +72,10 @@ main form input[type="text"]{
 .asterisk_input::after {
     content: " *";
     color: #e32;
-    position: absolute;
-    top: 50px;
     font-size: 34px;
-    right: 20px;
 }
 main form a:first-of-type {
-    width: 217px;
+    width: 200px;
     background: #05D1F3;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 20px;
@@ -82,11 +83,9 @@ main form a:first-of-type {
     outline: none;
     color: #FFF;
     font-size: 24px;
-    position: absolute;
-    top: 140px;
-    left: 20px;
     text-decoration: none;
     line-height: 54px;
+    margin: 10% auto auto auto;
 }
 main form a:last-of-type {
     color: #000;
@@ -94,8 +93,8 @@ main form a:last-of-type {
     background: #C3DDEA;
     border-radius: 40px;
     padding: 7px 15px 7px 15px;
-    position: relative;
-    top: 130px;
+    width: 120px;
+    margin: 7% auto auto auto;
 }
 /* end main */
 
@@ -105,9 +104,10 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #FFF;;
-    position: relative;
-    top:290px
+    background: #FFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 footer a {
     text-decoration: none;
