@@ -105,7 +105,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     background: #FFF;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
