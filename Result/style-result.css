@@ -47,7 +47,6 @@ main div span{
 /* start main section*/
 footer {
     display: flex;
-    justify-content: flex-end;
     justify-content: center;
 }
 footer a {
@@ -58,14 +57,10 @@ footer a {
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 10%;
     cursor: pointer;
 }
 footer a:first-of-type {
-    width: 190px;
-    background: #FFF;
-    color: #000;
-    margin-right: 20px;
     width: 190px;
     background: #FFF;
     color: #000;
