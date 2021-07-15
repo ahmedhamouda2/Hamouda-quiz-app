@@ -13,7 +13,6 @@ body {
 header {
     text-align: center;
     padding: 35px;
-    margin-bottom: 30px;
 }
 /* End header */
 
@@ -84,8 +83,8 @@ header {
 
 /* start other score section */
 .other-score {
-    width: 415px;
-    height: 301px;
+    width: 40%;
+    height: 100%;
     background: rgba(255, 255, 255, 0.88);
     border-radius: 40px 40px 0px 0px;
     padding: 35px;
@@ -138,11 +137,16 @@ footer a {
     padding: 20px;
     text-align: center;
     color: #FFF;
-    margin-top: 40px;
+    margin-top: 3%;
 }
 /* End footer section */
 
 /* start media query */
+@media (max-width:767px) {
+    .other-score {
+        width: 100%;
+    }
+}
 @media (min-width:767px) {
     footer {
         justify-content: center;
