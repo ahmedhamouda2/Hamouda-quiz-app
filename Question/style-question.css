@@ -28,7 +28,6 @@ header span {
 /* start section seprator */
 .line-seprator {
     display: flex;
-    margin-left: 20px;
 }
 .line-seprator hr {
     width: 26px;
@@ -48,7 +47,7 @@ header span {
     margin: 60px 0 0 30px;
 }
 .questions .content p {
-    width: 370px;
+    width: 300px;
     font-weight: bold;
     font-size: 22px;
     color: #FFFFFF;
@@ -59,7 +58,7 @@ header span {
 .questions .opations .opat {
     border: 2px solid rgba(255, 255, 255, 0.75);
     border-radius: 15px;
-    width: 360px;
+    width: 330px;
     height: 50px;
     display: flex;
     align-items:center;
@@ -112,7 +111,6 @@ footer {
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
-    margin-top: 60px;
 }
 footer a {
     width: 160px;
