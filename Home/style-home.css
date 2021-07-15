@@ -32,10 +32,13 @@ header h1 span {
 }
 /* end header */
 
-/* start welcome */
+/* start main */
+main {
+    padding-top: 10%;
+    min-height: calc(100vh - 76px - 70px);
+}
 .welcome-text {
     text-align: center;
-    margin-top: 80px;
     font-weight: bold;
 }
 .welcome-text span{
@@ -43,24 +46,18 @@ header h1 span {
     font-size: 65px;
     font-weight: normal;
 }
-/* end welcome */
-
-/* start main */
-main {
+.buttons {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-top: 6%;
 }
-main form {
-    display: flex;
-    flex-direction: column;
-}
-main form p {
+.buttons p {
     font-weight: bold;
     font-size: 20px;
 }
-main form input[type="text"]{
+.buttons input[type="text"]{
     height: 50px;
     width: 250px;
     outline: none;
@@ -68,13 +65,14 @@ main form input[type="text"]{
     border: 3px solid #05D1F3;
     text-indent: 12px;
     font-size: 18px;
+    margin: auto;
 }
 .asterisk_input::after {
     content: " *";
     color: #e32;
     font-size: 34px;
 }
-main form a:first-of-type {
+.buttons a:first-of-type {
     width: 200px;
     background: #05D1F3;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
@@ -85,16 +83,16 @@ main form a:first-of-type {
     font-size: 24px;
     text-decoration: none;
     line-height: 54px;
-    margin: 10% auto auto auto;
+    margin: 2% auto auto auto;
 }
-main form a:last-of-type {
+.buttons a:last-of-type {
     color: #000;
     text-decoration: none;
     background: #C3DDEA;
     border-radius: 40px;
     padding: 7px 15px 7px 15px;
     width: 120px;
-    margin: 7% auto auto auto;
+    margin: 4% auto auto auto;
 }
 /* end main */
 
