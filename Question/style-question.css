@@ -63,7 +63,6 @@ header span {
     height: 50px;
     display: flex;
     align-items:center;
-    /* padding-left: 25px; */
     margin-bottom: 30px;
     color: rgba(255, 255, 255, 0.75);
 }
