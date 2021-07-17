@@ -81,7 +81,6 @@ select option:nth-child(even) {
 }
 .questions .content p {
     width: 300px;
-    font-weight: bold;
     font-size: 18px;
     color: #FFFFFF;
 }
