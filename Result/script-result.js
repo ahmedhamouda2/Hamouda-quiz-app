@@ -1,6 +1,6 @@
 let resultScore = document.getElementById('result-score')
 let userName = document.getElementById('name-user')
-let data = JSON.parse(localStorage.getItem("data"))
+let data = JSON.parse(localStorage.getItem("oldData"))
 let length = data.length
 
 resultScore.textContent = data[length-1].score
