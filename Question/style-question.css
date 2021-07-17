@@ -28,6 +28,7 @@ header span {
 /* start section seprator */
 .line-seprator {
     display: flex;
+    padding-left: 30px;
 }
 .line-seprator hr {
     width: 26px;
@@ -44,7 +45,39 @@ header span {
 
 /* start section questions */
 .questions {
-    margin: 60px 0 0 30px;
+    margin: 30px 0 0 30px;
+}
+.questions .conatiner-questions {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 88%;
+}
+.questions .conatiner-questions .box-select {
+    display: flex;
+    flex-direction: column;
+}
+.questions .conatiner-questions .box-select select{
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    color: #FFF;
+    background: #05D1F3;
+    border: 6px solid transparent;
+    margin-top: 8%;
+}
+select option {
+    zoom: 1.2;
+}
+select option:nth-child(odd) {
+    background: #026879
+}
+select option:nth-child(even) {
+    background: #04A7C2
+}
+.questions .content {
+    padding-top: 35px;
 }
 .questions .content p {
     width: 300px;
@@ -53,7 +86,7 @@ header span {
     color: #FFFFFF;
 }
 .questions .opations {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 .questions .opations .opat {
     border: 2px solid rgba(255, 255, 255, 0.75);
@@ -137,6 +170,9 @@ footer a {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+    .questions .conatiner-questions {
+        width: 28%;
     }
 }
 /* End media query */
