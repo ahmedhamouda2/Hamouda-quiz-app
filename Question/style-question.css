@@ -82,7 +82,7 @@ select option:nth-child(even) {
 .questions .content p {
     width: 300px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     color: #FFFFFF;
 }
 .questions .opations {
@@ -111,14 +111,14 @@ select option:nth-child(even) {
     border: none !important;
 }
 .questions .opations .opat input {
-    width: 100%;
+    width: 90%;
     height: 100%;
     background: transparent;
     border: none;
     outline: none;
     color: #fff;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 16px;
     text-align: left;
     padding-left: 20px;
     cursor: pointer;
@@ -129,9 +129,6 @@ select option:nth-child(even) {
     height: 26px;
     border-radius: 50%;
     border: 3px solid #fff;
-    position: relative;
-    left: -10px;
-    z-index: -2;
 }
 .questions .opations .opat div img {
     width: 100%;
