@@ -70,14 +70,14 @@ function selectCategory (){
             if (counter < 9) {
                 checkResult(counter, result)
                 ++counter
-                questionContent.textContent = data.results[counter].question;
-                let newarray = [... data.results[counter].incorrect_answers]
+                questionContent.textContent = data.results[counter].question.replace(/&quot;/g,'"').replace(/&#039;/g,'’'); // To convert encoding a character
+                let newarray = [... data.results[counter].incorrect_answers];
                 newarray.push(data.results[counter].correct_answer)
                 newarray.sort( () => .5 - Math.random() );
-                opationOne.value = newarray[0];
-                opationTwo.value = newarray[1];
-                opationThree.value = newarray[2];
-                opationFour.value = newarray[3];
+                opationOne.value = newarray[0].replace(/&quot;/g,'"').replace(/&#039;/g,'’');
+                opationTwo.value = newarray[1].replace(/&quot;/g,'"').replace(/&#039;/g,'’');
+                opationThree.value = newarray[2].replace(/&quot;/g,'"').replace(/&#039;/g,'’');
+                opationFour.value = newarray[3].replace(/&quot;/g,'"').replace(/&#039;/g,'’');
                 questionNumber.innerText = counter + 1
                 console.log('score : ' + score)
             } else if (counter == 9) {
