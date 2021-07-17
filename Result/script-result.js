@@ -3,12 +3,12 @@ let userName = document.getElementById('name-user')
 let data = JSON.parse(localStorage.getItem("oldData"))
 let length = data.length
 
-resultScore.textContent = data[length-1].score
-userName.textContent = data[length-1].name
+resultScore.textContent = data[length - 1].score
+userName.textContent = data[length - 1].name
 
 let copyUrl = document.getElementById('copy-url')
 
-copyUrl.addEventListener('click' , copyToClipboard = () => {
+copyUrl.addEventListener('click', copyToClipboard = () => {
     var inputCopy = document.body.appendChild(document.createElement("input"));
     inputCopy.value = window.location.href;
     inputCopy.focus();
@@ -16,4 +16,4 @@ copyUrl.addEventListener('click' , copyToClipboard = () => {
     document.execCommand('copy');
     inputCopy.parentNode.removeChild(inputCopy);
     alert("URL Copied.");
-    })
+})
