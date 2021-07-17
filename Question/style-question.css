@@ -122,6 +122,9 @@ select option:nth-child(even) {
     text-indent: 20px;
     cursor: pointer;
 }
+.questions .opations .opat input:focus {
+    color: #33D6C5;
+}
 .questions .opations .opat div {
     background-color: transparent;
     width: 26px;
