@@ -14,7 +14,7 @@
 <body>
     
     <header>
-        Question <span id="question-number">1</span>/10
+        Question <span id="question-number"></span>/10
     </header>
     
     <section class="line-seprator">
@@ -31,24 +31,57 @@
     </section>
 
     <section class="questions">
+        <div class="conatiner-questions">
+            <div class="box-select">
+                <label for="category">Category</label>
+                <select id="category">
+                    <option value="">Select One …</option>
+                    <option value="9">General Knowledge</option>
+                    <option value="10">Books</option>
+                    <option value="11">Film</option>
+                    <option value="12">Music</option>
+                    <option value="15">Video Games</option>
+                    <option value="17">Science &amp; Nature</option>
+                    <option value="18">Computers Science</option>
+                    <option value="20">Mythology</option>
+                    <option value="21">Sports</option>
+                    <option value="22">Geography</option>
+                    <option value="23">History</option>
+                    <option value="27">Animals</option>
+                    <option value="28">Vehicles</option>
+                    <option value="32">Cartoon & Animations</option>
+                </select>
+            </div>
+
+            <div class="box-select">
+                <label for="difficulty">Difficulty</label>
+                <select id="difficulty">
+                    <option value="">Select One …</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+        </div>
+
         <div class="content">
-            <p id="question-content">What is 1 + 1?</p>
+            <p id="question-content"></p>
         </div>
         <div class="opations">
-            <div class="opat" id="1" onclick="reply_click(this.id)">
-                <input type="submit" id="opation-one" value="2">
-                <div><img src="../images/Vector.png" alt=""></div>
+            <div class="opat" id="1" >
+                <input type="submit" id="opation-one" value="">
+                <div><!--<img src="../images/Vector.png" alt="">--></div>
             </div>
-            <div class="opat" id="2" onclick="reply_click(this.id)">
-                <input type="submit" id="opation-two" value="3" >
+            <div class="opat" id="2" >
+                <input type="submit" id="opation-two" value="" >
                 <div></div>
             </div>
-            <div class="opat"  id="3" onclick="reply_click(this.id)">
-                <input type="submit" id="opation-three" value="3" >
+            <div class="opat"  id="3" >
+                <input type="submit" id="opation-three" value="" >
                 <div></div>
             </div>
-            <div class="opat"  id="4" onclick="reply_click(this.id)">
-                <input type="submit" id="opation-four" value="4" >
+            <div class="opat"  id="4" >
+                <input type="submit" id="opation-four" value="" >
                 <div></div>
             </div>
         </div>
