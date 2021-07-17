@@ -1,6 +1,6 @@
 # quiz-app
 
-You can see our live link  : [ Click here](https://ahmedhamouda2.github.io/Hamouda-quiz-app/)
+You can see our live link  : [ Click here](https://ahmedhamouda2.github.io/quiz-app/)
 
 # Brief Description
 A simple application that offers you a set of questions that you can answer and measure the extent of your culture.
