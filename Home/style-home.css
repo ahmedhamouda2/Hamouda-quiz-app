@@ -68,9 +68,11 @@ main {
     margin: auto;
 }
 .asterisk_input::after {
-    content: " *";
+    content: "*";
     color: #e32;
     font-size: 34px;
+    position: relative;
+    top: 67px;
 }
 .buttons a:first-of-type {
     width: 200px;
